@@ -13,6 +13,7 @@
 		CE35F86A1C2A6CB90004E53D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE35F8681C2A6CB90004E53D /* Main.storyboard */; };
 		CE35F86C1C2A6CB90004E53D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE35F86B1C2A6CB90004E53D /* Assets.xcassets */; };
 		CE35F86F1C2A6CB90004E53D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE35F86D1C2A6CB90004E53D /* LaunchScreen.storyboard */; };
+		CE35F8781C2A6D0C0004E53D /* MyNavigationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CE35F8771C2A6D0C0004E53D /* MyNavigationVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		CE35F86B1C2A6CB90004E53D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE35F86E1C2A6CB90004E53D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE35F8701C2A6CB90004E53D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE35F8761C2A6D0C0004E53D /* MyNavigationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyNavigationVC.h; sourceTree = "<group>"; };
+		CE35F8771C2A6D0C0004E53D /* MyNavigationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNavigationVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				CE35F86D1C2A6CB90004E53D /* LaunchScreen.storyboard */,
 				CE35F8701C2A6CB90004E53D /* Info.plist */,
 				CE35F85F1C2A6CB90004E53D /* Supporting Files */,
+				CE35F8761C2A6D0C0004E53D /* MyNavigationVC.h */,
+				CE35F8771C2A6D0C0004E53D /* MyNavigationVC.m */,
 			);
 			path = gittest;
 			sourceTree = "<group>";
@@ -151,6 +156,7 @@
 			files = (
 				CE35F8671C2A6CB90004E53D /* ViewController.m in Sources */,
 				CE35F8641C2A6CB90004E53D /* AppDelegate.m in Sources */,
+				CE35F8781C2A6D0C0004E53D /* MyNavigationVC.m in Sources */,
 				CE35F8611C2A6CB90004E53D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
